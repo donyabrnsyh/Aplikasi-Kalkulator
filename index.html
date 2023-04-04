@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="" name="call" class="screen">
+        <input name="layar" id="" placeholder="0" />
+        <!-- <textarea name="layar" id="" placeholder="0"></textarea> -->
+      </form>
+
+      <!-- Section Button Awal -->
+      <div class="keys">
+        <!-- Baris 1 -->
+        <div class="row">
+          <button class="allclear" onclick="ac()">AC</button>
+          <button class="percent" onclick="insert('%')">%</button>
+          <button class="operator" onclick="insert('/')">/</button>
+        </div>
+
+        <!-- Baris 2 -->
+
+        <div class="row">
+          <button class="number" onclick="insert('7')">7</button>
+          <button class="number" onclick="insert('8')">8</button>
+          <button class="number" onclick="insert('9')">9</button>
+          <button class="operator" onclick="insert('*')">X</button>
+        </div>
+
+        <!-- Baris 3 -->
+
+        <div class="row">
+          <button class="number" onclick="insert('4')">4</button>
+          <button class="number" onclick="insert('5')">5</button>
+          <button class="number" onclick="insert('6')">6</button>
+          <button class="operator" onclick="insert('-')">-</button>
+        </div>
+
+        <!-- Baris 4 -->
+
+        <div class="row">
+          <button class="number" onclick="insert('1')">1</button>
+          <button class="number" onclick="insert('2')">2</button>
+          <button class="number" onclick="insert('3')">3</button>
+          <button class="operator" onclick="insert('+')">+</button>
+        </div>
+
+        <!-- Baris 5 -->
+
+        <div class="row">
+          <button class="number zero-btn" onclick="insert('0')">0</button>
+          <button onclick="insert('.')">,</button>
+          <button class="equal" onclick="equal()">=</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Button Akhir -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

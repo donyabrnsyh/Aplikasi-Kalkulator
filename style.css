@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  text-align: center;
+  margin: 0 10px;
+  padding-top: 10px;
+}
+
+.screen input {
+  height: 100px;
+  width: 100%;
+  text-align: end;
+  background-color: black;
+  color: white;
+  font-size: 3rem;
+}
+
+.keys {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+button {
+  height: 50px;
+  width: 25%;
+  background-color: grey;
+  color: white;
+  font-size: 32px;
+  border: 1px solid black;
+}
+
+.allclear,
+.zero-btn {
+  width: 50%;
+}
+
+.operator,
+.equal {
+  background-color: orange;
+}
